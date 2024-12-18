@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image: url(background.jpg);
+}
+ 
+
+.navbar {
+  width: 1200px; 
+  height: 75px;
+  margin: 0 auto; 
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #4e494c;
+  font-size: 30px;
+  font-family: 'Inter', sans-serif; 
+  padding-left: 12px;
+  float: left;
+  padding-top: 15px;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+  color: black;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 300px; 
+  margin-top: 27px;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+ul li:hover {
+  color: #4e494c; 
+}
+
+.Prtzl{  
+    margin-left: 8%; 
+    margin-top:  13%;
+}
+
+.Prtzl:hover{ 
+    color: #4e494c;
+}
+
+a{
+  text-decoration: none; 
+  color: black;
+}
+
+a:hover{
+  color: #4e494c;
+}
+
+.Prtzl h1{
+    font-size: 50px;
+    color: black;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
+
+.Prtzl h1:hover{
+    color: #4e494c;
+}
+span:hover{
+    color: #4e494c;
+}
+
+.Prtzl h2{
+    color: black;   
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+}
+
+
+.Prtzl p{
+    color: black;
+    line-height: 22px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
+.Prtzl a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.yujiro{
+  height: 92%;
+  position: absolute;
+  left: 75%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s ;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.Socials{
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 27%;
+}
+
+h1, h2, h3, h4{
+  font-family: "Inter", sans-serif;
+}
+
+p{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.profile{
+  height: 60%;
+  position: absolute;
+  left: 23%;
+  top: 25%;
+
+}
+
+.me{
+  position: absolute;
+  right: 25%;
+  left: 50%;
+  top: 28%;
+  font-family: "Inter", sans-serif;
+  
+}
+
+.images{
+ height: 10px;
+  
+}
+
+
